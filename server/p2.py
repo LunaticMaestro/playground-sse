@@ -11,7 +11,7 @@ import json
 # generated from https://randomwordgenerator.com/
 words = ['salmon', 'intention', 'pipe', 'beat', 'crosswalk', 'nail', 'hardware', 'snow', 'panic', 'diameter', 'dozen', 'pop', 'gallery', 'rest', 'silk', 'terms', 'load', 'tough', 'module', 'slap']
 
-async def some_processing(equest=None):
+async def some_processing(request=None):
     try: 
         for word in words:
             await asyncio.sleep(0.9)  # simulate some background processing
